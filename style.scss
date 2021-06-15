@@ -1,0 +1,65 @@
+    $white: #f1f1f1;
+    $gray:  #242424;
+    $green: #5C9730;
+    $blue:  Darkblue;
+
+    body{ 
+        background-color: $gray;
+        color: $white 
+    } 
+
+   h1{
+       color: $white;
+       font-size: 50px;
+       margin: 5% 10%;
+       font-family: Helvetica neue, pingfang HK, sans-serif;
+   }
+   #header{
+        color: $white; 
+       font-size: 30px;
+       padding: 10px 30px;
+       font-family: Helvetica neue, pingfang HK, sans-serif;
+       display: inline;
+   }
+
+   p{
+       display: inline-block;
+       left: -50%;
+       transform: translateX(0%);
+       padding: 10px 30px;
+       font-size: 25px;
+       font-family: Helvetica neue, pingfang HK, sans-serif;
+   }
+
+
+
+   /* have the links to the other webpages inline with each other, have the in font 25px */    
+   nav li {
+
+       display: flex;
+       padding: 10px;
+       margin: 2px;
+       margin-bottom: 5px;
+       font-size: 25px;
+       transition: transform 0.5s ease;
+       font-family: Helvetica neue, pingfang HK, sans-serif;
+   }
+   /* the colour of the boxes around the link */
+   nav a {
+       display: inline-block;
+       padding: 5px;
+       margin: 4px;
+       border: 2px solid $blue;
+        background-color: $green; 
+       color: $white; 
+       text-decoration: none;
+   }
+   /* the colour of the links before they are clicked */
+   nav a:hover, nav a:focus {
+       background-color: $green;
+       color: $gray;
+   }
+/* what the colour of the links will be when they are clicked */
+nav a:visited {
+       color: $white;
+   }

@@ -1,0 +1,67 @@
+body {
+  background-color: #242424;
+  color: #f1f1f1;
+}
+
+h1 {
+  color: #f1f1f1;
+  font-size: 50px;
+  margin: 5% 10%;
+  font-family: Helvetica neue, pingfang HK, sans-serif;
+}
+
+#header {
+  color: #f1f1f1;
+  font-size: 30px;
+  padding: 10px 30px;
+  font-family: Helvetica neue, pingfang HK, sans-serif;
+  display: inline;
+}
+
+p {
+  display: inline-block;
+  left: -50%;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  padding: 10px 30px;
+  font-size: 25px;
+  font-family: Helvetica neue, pingfang HK, sans-serif;
+}
+
+/* have the links to the other webpages inline with each other, have the in font 25px */
+nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 2px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  font-family: Helvetica neue, pingfang HK, sans-serif;
+}
+
+/* the colour of the boxes around the link */
+nav a {
+  display: inline-block;
+  padding: 5px;
+  margin: 4px;
+  border: 2px solid Darkblue;
+  background-color: #5C9730;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+/* the colour of the links before they are clicked */
+nav a:hover, nav a:focus {
+  background-color: #5C9730;
+  color: #241414;
+}
+
+/* what the colour of the links will be when they are clicked */
+nav a:visited {
+  color: #f1f1f1;
+}
