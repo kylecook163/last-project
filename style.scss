@@ -3,17 +3,20 @@
     $green: #5C9730;
     $blue:  Darkblue;
 
+    // have all webpages with the same background and same text colour
     body{ 
         background-color: $gray;
         color: $white 
     } 
 
+    // have all main titles ofr webpages look the exact same
    h1{
        color: $white;
        font-size: 50px;
        margin: 5% 10%;
        font-family: Helvetica neue, pingfang HK, sans-serif;
    }
+    //    make this header smaller so it's not a main one
    #header{
         color: $white; 
        font-size: 30px;
@@ -21,7 +24,7 @@
        font-family: Helvetica neue, pingfang HK, sans-serif;
        display: inline;
    }
-
+    // make all paragraphs look the same
    p{
        display: inline-block;
        left: -50%;
